@@ -10,6 +10,21 @@
     background-color: #282828;
     color: #ebdbb2
 }
+
+.text {
+    text-align: left;
+    margin: auto;
+    width: fit-content;
+}
+
+.monospace {
+    font-family: 'Fira Code', monospace;
+    text-align: left;
+    text-transform: none;
+    margin: auto;
+    width: fit-content;
+}
+
 table {
     color: #3c3836;
     border-collapse: collapse;
@@ -30,7 +45,7 @@ td, th {
 }
 /* Code sample styles */
 .highlight {
-    font-size: 100%;
+    font-size: 80%;
     font-family: 'Fira Code', monospace;
 }
 pre .highlight {
@@ -58,6 +73,11 @@ color: #fb4934;
 /* specific adjustments for top type */
 .type--top {
     margin-top: 1em;
+}
+
+.icon img{
+  height: 1em;
+  transform: translateY(10%);
 }
 /* specific adjustments for bottom type */
 .type--bottom {
